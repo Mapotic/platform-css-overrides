@@ -1,1 +1,31 @@
+.mpt-topNav-desktop-hMid,
+.mpt-topNav-desktop-hRight {
+  background-color: transparent !important;
 
+  & > * {
+    background-color: var(--mui-palette-md3-surfaceContainerLow);
+    border-radius: 8px;
+  }
+}
+.mpt-topNav-desktop-hLeft {
+  width: 408px;
+}
+.mpt-topNav-desktop-hMid > * {
+  padding: 10px 0 !important;
+}
+.mpt-topNav-desktop-hMid a {
+  padding: 10px !important;
+}
+.mpt-current-user > button,
+.mpt-topNav-desktop-hRight > button {
+  padding: 10px !important;
+  &:hover {
+    background-color: var(--mui-palette-md3-surfaceContainerLow);
+  }
+}
+
+.mpt-banner {
+  & > button > p {
+    text-transform: uppercase;
+  }
+}
